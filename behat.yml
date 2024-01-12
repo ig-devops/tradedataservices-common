@@ -1,0 +1,9 @@
+# behat.yml
+default:
+    suites:
+        CommandHandlerEventContext:
+            paths:    [ %paths.base%/features/CommandHandlerEventContext ]
+            contexts: [ FeatureContext, CommandHandlerEventContext ]
+        EventDispatcherContext:
+            paths:    [ %paths.base%/features/EventDispatcherContext ]
+            contexts: [ FeatureContext, EventDispatcherContext ]
