@@ -1,5 +1,5 @@
 {
-    "name": "tradedataservices/common",
+    "name": "tradedataservices/importgenius-common",
     "description": "Import Genius Common Libraries Package",
     "type": "git",
     "authors": [
